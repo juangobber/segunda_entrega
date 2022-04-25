@@ -1,0 +1,63 @@
+
+.navbar-brand, h1{
+    font-family: 'Orelega One', cursive;
+}
+.alto-8{
+    height: 8rem;
+}
+
+.logo{
+    width: 12rem;
+    
+}
+
+.nav-link:hover{
+font-weight: bolder;
+color: darkslategray;
+transition: all 0.2s;
+}
+
+.activo {
+    font-weight: bolder;
+    color: #619aad !important;
+}
+
+footer{
+    width: 100%;
+    background-color:#619aad ;
+    height: 100px;
+    display: flex;
+    padding: 3rem;
+    justify-content: center;
+}
+ .bi-facebook, .bi-instagram, .bi-whatsapp{
+     color: whitesmoke;
+ }
+
+ .alto-formulario {
+     height: 15rem;
+ }
+
+ .btn-secondary{
+     background-color: #619aad;
+     border: 0px;
+ }
+
+ .btn-secondary:hover{
+     transition: all 0.3s;
+     box-shadow: 2rem #ffcd42;
+    
+ }
+ .card:hover{
+ /* offset-x | offset-y | blur-radius | spread-radius | color */
+ transition: all 0.3s;
+    box-shadow: 0px 0px 3rem 0.5rem #c7c7c7;
+    width: 105%;
+ }
+
+ .card-img-top{
+    object-fit:  contain;
+    position: relative;
+    top: 0.6rem;
+ }
+
